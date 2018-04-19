@@ -1,18 +1,20 @@
 import React from 'react';
-import Typed from 'react-typed';
 
 class Welcome extends React.Component {
   render() {
     return (
       <div className="jumbotron">
       	<div className="container">
-      		<Typed
-      			className="type"
- 	       		strings={['AutographaMT : Machine Translation Engine']}
- 	       		typeSpeed={50}
- 	       		loop
- 	        />
- 	        <br/>
+      		<h1>Welcome,  Developer ...!!!</h1>
+      		<ul>
+      			<li>Reatcjs</li>
+      			<li>Redux</li>
+      			<li>Express</li>
+      			<li>Postgress SQL</li>
+      			<li>Webpack</li>
+      			<li>Babelrc</li>
+      			<li>jsonwebtoken</li>
+      		</ul>
     	</div>
       </div>
     );

@@ -18,7 +18,6 @@ class NavigationBar extends React.Component{
         <li><Link to="/dash">Dashboard</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/item">Item</Link></li>
         <li><a href="#" onClick={this.logout.bind(this)}>Logut</a></li>
       </ul>
     );
@@ -34,9 +33,8 @@ class NavigationBar extends React.Component{
       <nav className="navbar navbar-default">
         <div className="container-fluid">
           <div className="navbar-header">
-            <Link to="/" className="navbar-brand">MT2414UI</Link>
+            <Link to="/signup" className="navbar-brand">ReactJS</Link>
           </div>
-
           <div className="collapse navbar-collapse">
            { isAuthenticated ? userLink : guestLink }
           </div>
